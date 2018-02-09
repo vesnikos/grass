@@ -81,3 +81,5 @@ RUN ./configure \
 
 # enable simple grass command regardless of version number
 RUN ln -s /usr/local/bin/grass* /usr/local/bin/grass
+
+WORKDIR /root
